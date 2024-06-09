@@ -17,20 +17,24 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1.
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Item 1. Configure [Roles](https://docs.osticket.com/en/latest/Admin/Agents/Roles.html).
+- Item 2. Configure [Departments](https://docs.osticket.com/en/latest/Admin/Agents/Departments.html).
+- Item 3. Configure [Teams](https://docs.osticket.com/en/latest/Admin/Agents/Teams.html).
+- Item 4. Allow anyone to create Tickets.
+- Item 5. Configure [Agents(Workers)](https://docs.osticket.com/en/latest/Admin/Agents/Agents.html).
+- Item 6. Configure [Users(Customers)](https://docs.osticket.com/en/latest/Agent/Users/User%20Directory.html).
+- Item 7. Configure [SLA(Service Level Agreements)](https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html).
+- Item 8. Configure [Help Topics](https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html).
 
 <h2>Configuration Steps</h2>
 
-Configure Roles
-•	Navigate to Admin Panel -> Agents -> Roles:
-o	Login to your osTicket Admin Panel (http://localhost/osTicket/scp/login.php).
-o	Go to Agents in the top menu, then select Roles.
-o	Click on Add New Role.
-o	Create a role named Supreme Admin with appropriate permissions for administrative tasks.
+Step 1: Configure Roles
+
+  Navigate to Admin Panel -> Agents -> Roles:
+Login to your osTicket Admin Panel (http://localhost/osTicket/scp/login.php).
+Go to Agents in the top menu, then select Roles.
+Click on Add New Role.
+Create a role named Supreme Admin with appropriate permissions for administrative tasks.
 
 ![image](https://github.com/John-Duria/osTicket---Post-Install-Configuration/assets/168502429/0003b368-22cd-483e-9c6a-7b4723c07508)
 
